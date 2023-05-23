@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>대한투어</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="jquery-3.6.4.js"></script>
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <div class="popupBg"></div>
+    <aside class="popup">
+        <h1>코로나19 방역 안내문</h1>
+        <p>
+            당사는 코로나19로부터 최대한 안전한 여행을 위해<br><br>
+
+            1.버스탑승전 체온측정후 37.5도 이상자 귀가조치 (100%환불조치)<br>
+            2.버스내 손소독제 비치후 탑승시 필수 사용<br>
+            3.버스내 이동중 마스크착용 필수, 미착용시 권고 후 강제하차조치<br>
+            4.버스내 소독 실시 및 이동중 충분한 환기조치시행<br>
+            5.현행 2단계 이상 조치시 버스내 탑승인원 일부 제한<br><br>
+
+            방역지침 준수를 위해 최대한 노력하도록 하겠습니다.<br>
+            감사합니다.
+        </p>
+        <button class="close">x 닫기</button>
+    </aside>
+    <header>
+        <div class="inner">
+            <h1 class="logo">
+                <a href="#">
+                    <img src="images/logo.png" alt="대한투어 로고">
+                </a>
+            </h1>
+            <div class="wrap">
+                <div class="gnbBg"></div>
+                <ul id="gnb">
+                    <li>
+                        <a href="#">해외여행</a>
+                        <ul class="sub">
+                            <li><a href="#">동남아/대만</a></li>
+                            <li><a href="#">중국/홍콩</a></li>
+                            <li><a href="#">유럽/두바이</a></li>
+                            <li><a href="#">미주/하와이</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">국내여행</a>
+                        <ul class="sub">
+                            <li><a href="#">서울/경기권</a></li>
+                            <li><a href="#">충청권</a></li>
+                            <li><a href="#">전라권</a></li>
+                            <li><a href="#">경상/강원권</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">제주도</a>
+                        <ul class="sub">
+                            <li><a href="#">버스여행</a></li>
+                            <li><a href="#">자유여행</a></li>
+                            <li><a href="#">호텔/펜션</a></li>
+                            <li><a href="#"></a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">렌터카</a>
+                        <ul class="sub">
+                            <li><a href="#">국내 렌터카</a></li>
+                            <li><a href="#">국외 렌터카</a></li>
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <section id="slide">
+        <ul class="frame">
+            <li><img src="images/slide1.jpg" alt="바다와 섬"></li>
+            <li><img src="images/slide2.jpg" alt="항공기, 환영문구"></li>
+            <li><img src="images/slide3.jpg" alt="열기구와 산맥"></li>
+        </ul>
+    </section>
+    <section id="content">
+        <div class="inner">
+            <article id="notice">
+                <p class="tab">공지사항</p>
+                <ul class="noticeContent">
+                    <li><a href="#">국내여행/기업출장/교육여행 단체 문의</a><span>2017-12-12</span></li>
+                    <li><a href="#">상담번호 안내 1234-5678</a><span>2017-12-10</span></li>
+                    <li><a href="#">대한투어! 1등이라 다른 5가지 이유</a><span>2018-03-09</span></li>
+                    <li><a href="#">법인고객 전용 상담 안내</a><span>2018-03-07</span></li>
+                    <li><a href="#">안심카드결제 안내</a><span>2018-03-05 </span></li>
+                </ul>
+            </article>
+            <article id="gallery">
+                <p class="tab">갤러리</p>
+                <div class="galleryContent">
+                    <a href="#" title="오프로드 여행"></a>
+                    <a href="#" title="도보 여행"></a>
+                    <a href="#" title="기차 여행"></a>
+                </div>
+            </article>
+            <article class="shortcut">
+                <a href="#" title="shortcut">
+                    <p>
+                        두근두근 심장을 다시 뛰게할 그곳!<br>
+                        우리만의 필리핀여행
+                    </p>
+                </a>
+            </article>
+        </div>
+    </section>
+    <footer>
+        <div class="inner">
+            <div class="copyright">
+                <span>
+                    <ul class="companyInfo">
+                        <li>(주)대한투어 대표 : 홍길동</li>
+                        <li>주소 : 서울특별시 종로구 인사동</li>
+                        <li>고객센터 1234-5678</li>
+                    </ul>
+                    <br>
+                    DAEHAN TOUR All rights reserved.
+                </span>
+            </div>
+            <div class="footer-wrap">
+                <div class="sns">
+                    <a href="#"><img src="images/sns-youtube.png" alt="대한투어 YouTube"></a>
+                    <a href="#"><img src="images/sns-twitter.png" alt="대한투어 Twitter"></a>
+                    <a href="#"><img src="images/sns-instagram.png" alt="대한투어 Instagram"></a>
+                </div>
+                <div class="family">
+                    <select name="family_site" id="family_site">
+                        <option value="">방문사이트 선택</option>
+                        <option value="family_site1">패밀리사이트 1</option>
+                        <option value="family_site2">패밀리사이트 2</option>
+                        <option value="family_site3">패밀리사이트 3</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
